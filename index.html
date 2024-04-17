@@ -8,11 +8,35 @@
 	<link rel="shortcut icon" href="" type="image/jpeg">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="stylesheet" href="./styles/ui.css">
+	<link rel="stylesheet" href="./roxui/ui.css">
 </head>
+<style type="text/css">
+	.fsx1 { width: 92vw; height: max-content; }
+	.rg39a {
+		background-image: url(https://images.alphacoders.com/111/1113006.jpg);
+		background-size: cover;
+		background-attachment: fixed;
+	}
+</style>
 <body>
-	<div class="window flex">
-	</div>
+	<header class="rox-header">
+		<div></div>
+	</header>
+	<section class="Window flex maxsize rg39a center dir:column">
+		<h1 class="color:white fsize:10 fweight:800">Rox Components</h1>
+		<div class="aci11 fsize:4">
+			<Quote style="background-color: #fff;" class="radius:2">JavaScript & UI DevKit</Quote>
+		</div>
+	</section>
+	<section class="Window flex maxsize">
+		<div class="rox-column padding:5 marginHorizon:5" style="border-right: 1px solid #a5a5a5;">
+			<h1 class="text:center">Rox <span class="fweight:300">JavaScript</span></h1>
+		</div>
+		<div class="rox-column padding:5 marginHorizon:5">
+			<h1 class="text:center">UI <span class="fweight:300">DevKit</span></h1>
+		</div>
+	</section>
+	<script src="./js/rox.js" defer></script>
 	<script src="./js/build.js" defer></script>
 </body>
 </html>

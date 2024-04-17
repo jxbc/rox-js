@@ -1,2 +1,2 @@
-# rox-js
-Rox.js
+# Rox Components
+Rox.js & UI DevKit
