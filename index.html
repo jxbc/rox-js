@@ -28,12 +28,107 @@
 			<Quote style="background-color: #fff;" class="radius:2">JavaScript & UI DevKit</Quote>
 		</div>
 	</section>
-	<section class="Window flex maxsize">
+	<section class="Window flex">
 		<div class="rox-column padding:5 marginHorizon:5" style="border-right: 1px solid #a5a5a5;">
 			<h1 class="text:center">Rox <span class="fweight:300">JavaScript</span></h1>
+			<h3 class="__line">Install</h3>
+			<div class="rox-compose">
+				<code>
+					&lt;script src="https://jxbc.github.io/rox-js/js/rox.js" defer&gt;&lt;/script&gt;
+				</code>
+			</div>
 		</div>
 		<div class="rox-column padding:5 marginHorizon:5">
 			<h1 class="text:center">UI <span class="fweight:300">DevKit</span></h1>
+			<h3 class="__line">Install</h3>
+			<div class="rox-compose">
+				<code>
+					&lt;link rel="stylesheet" href="https://jxbc.github.io/rox-js/roxui/ui.css"&gt;
+				</code>
+			</div>
+			<h3 class="__line">Buttons</h3>
+			<div class="rox-compose">
+				<button>Simple button</button>
+				<button class="material">Simple class 'material'</button>
+				<button class="rox">Simple class 'rox'</button>
+			</div>
+			<div class="rox-compose">
+				<button class="flat">Simple class 'flat'</button>
+				<button class="you">Simple class 'you'</button>
+			</div>
+			<div>Example code:</div>
+			<div class="rox-compose">
+				<code>
+					&lt;button&gt;Simple button&lt;/button&gt;
+				</code>
+			</div>
+			<h3 class="__line">HTML API Reference</h3>
+			<div class="rox-compose">
+				<div class="text fsize:2"><span class="fweight:700">Font Weight</span> with examples:</div>
+				<ul>
+					<li>fweight:300 - <span class="fweight:300">Example text</span></li>
+					<li>fweight:500 - <span class="fweight:500">Example text</span></li>
+					<li>fweight:700 - <span class="fweight:700">Example text</span></li>
+					<li>fweight:800 - <span class="fweight:800">Example text</span></li>
+					<li>fweight:900 - <span class="fweight:900">Example text</span></li>
+				</ul>
+				<div>
+					<code>&lt;div class="fweight:500"&gt;Example text&lt;/div&gt;</code>
+				</div>
+			</div>
+			<div class="rox-compose">
+				<div class="text fsize:2">Professional <span class="fweight:700">Border-Radius</span> with Rox math radius:</div>
+				<ul>
+					<li>radius:1</li>
+					<li>radius:2</li>
+					<li>radius:3</li>
+					<li>radius:4</li>
+					<li>radius:5</li>
+					<li>radius:6</li>
+					<li>radius:7</li>
+					<li>radius:8</li>
+				</ul>
+				<div>
+					<code>&lt;div class="radius:4"&gt;Example block&lt;/div&gt;</code>
+				</div>
+			</div>
+			<div class="rox-compose">
+				<div class="text fsize:2"><span class="fweight:700">Font Size</span> with examples:</div>
+				<ul>
+					<li>fsize:1...10</li>
+				</ul>
+				<div>
+					<code>&lt;div class="fsize:6"&gt;Example block&lt;/div&gt;</code>
+				</div>
+			</div>
+			<h3>Flexbox & other</h3>
+			<div class="rox-compose">
+				<div class="text fsize:2">Use next <span class="fweight:700">classes</span> for excellent dev experience:</div>
+				<ul>
+					<li>flex - block to Flexbox</li>
+					<li>inline - block to inline-flexbox</li>
+					<li>Window - Window object of RoxUI</li>
+					<li>Window maxsize - use 2 classes for Max Size Screen</li>
+					<li>center - center block on Flexbox</li>
+					<li>center:horizon - center horizontal block on Flexbox</li>
+					<li>dir:column - flex direction to column</li>
+					<li>padding:5 - use standart padding for RoxUI</li>
+					<li>marginHorizon:5 - use standart margin for RoxUI</li>
+					<li>rox-compose - margin block for UX RoxUI</li>
+					<li>rox-column - cut screen to 2 max-screen blocks</li>
+					<li>rox-header - use standart Header RoxUI</li>
+					<li>h1 *selector</li>
+					<li>h3 *selector</li>
+					<li>Block *selector</li>
+					<li>ul *selector</li>
+					<li>Quote *selector</li>
+					<li>code *selector</li>
+					<li>section *selector</li>
+				</ul>
+				<div>
+					<code>&lt;div class="Window flex maxsize center"&gt;Example block&lt;/div&gt;</code>
+				</div>
+			</div
 		</div>
 	</section>
 	<script src="./js/rox.js" defer></script>
