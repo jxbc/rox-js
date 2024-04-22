@@ -75,6 +75,7 @@ html, body {
 .fsize\:10 { font-size: 76px; }
 
 .text\:center { text-align: center; }
+.cyrillic { font-family: 'Manrope', sans-serif; }
 
 Center {
 	align-items: center;
@@ -156,8 +157,27 @@ code {
 	background: #444;
     padding: 9px 15px;
     border-radius: 7px;
-    color: #dfdfdf;
+    color: #ffffff;
 }
+code.box {
+	display: block;
+	color: #fff;
+	background: #080808;
+	font-size: 16px;
+}
+code .magenta {color: magenta;}
+code .orange {color: orange;}
+code .blue {color: #00fdff;}
+code .green {color: #00ff39;}
+code .purple {color: #ff008b;}
+code .red {color: #ff1515;}
+code .yellow {color: #e5e108;}
+code .gray2 {color: #454545;}
+code .gray {color: #636363;}
+code .lime {color: #00ffa1;}
+code .tab {margin-left: 30px;}
+code .title {font-family: 'Inter'; margin-bottom: 9px;}
 
 header { z-index: 99; }
 section { position: relative; }
+.noselect { user-select: none; pointer-events: none; }
